@@ -38,23 +38,6 @@ This implementation represents the **quasi-1D analytical stage** and will be val
 
 ---
 
-## Key Equations and Conservation Laws
-- **Mass Conservation:**  
-  \[
-  \dot{m}_5 = \dot{m}_2 + \dot{m}_4
-  \]
-- **Energy Conservation:**  
-  \[
-  \dot{m}_2(h_2 + \frac{v_2^2}{2}) + \dot{m}_4(h_4 + \frac{v_4^2}{2}) = \dot{m}_5(h_5 + \frac{v_5^2}{2})
-  \]
-- **Velocity Relation:**  
-  \[
-  v = M \sqrt{\gamma R_{specific} T}
-  \]
-- The mixture properties (`Cp_mix`, `γ_mix`, `MW_mix`) are calculated as mass-weighted averages of the component gases.
-
----
-
 ## 📈 Outputs
 - Mach number variation in converging and diverging sections  
 - Pressure and temperature distributions along the axis  
